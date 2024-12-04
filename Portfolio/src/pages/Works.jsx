@@ -1,12 +1,13 @@
 import React from "react";
 import Nav from "../components/Nav.jsx";
 
-function Home(){
+function Works(){
     return(
         <div className="container">
             <Nav />
+            Works
         </div>
     );
 }
 
-export default Home;
+export default Works;

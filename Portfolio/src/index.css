@@ -17,3 +17,12 @@ p{
   font-size: 20px;
   font-weight: 300;
 }
+a{
+  font-family: 'Plus Jakarta Sans';
+  text-decoration: none;
+  color: black;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+}

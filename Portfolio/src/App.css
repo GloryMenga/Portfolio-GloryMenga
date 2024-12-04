@@ -1,1 +1,45 @@
 /*Home Page*/
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 85%;
+  height: 150px;
+}
+.name{
+  font-size: 55px;
+  font-weight: 800;
+}
+.menus{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 22%;
+  font-size: 20px;
+}
+.menus a{
+  font-weight: 600;
+  font-weight: 600;
+  transition: 0.3s;
+  color: rgb(88, 88, 88);
+}
+.menus a:hover{
+  font-weight: 800;
+  color: black;
+}
+.contact a{
+  border-radius: 50px;
+  border: 1px solid black;
+  padding: 15px 30px;
+  background-color: black;
+  font-weight: 800;
+  color: white;
+  transition: 0.3s;
+}
+.contact a:hover{
+  border: 1px solid rgb(229, 229, 229);
+  background-color: rgb(229, 229, 229);
+  color: black;
+}
